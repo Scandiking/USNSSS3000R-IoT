@@ -1,0 +1,5 @@
+1. Kameraovervåking med ansiktsgjenkjenning og alarm
+2. Hunde/kattemater som porsjonerer ut mengde mat avhengig av størrelse og vekt, tidsvindu
+3. Smart søvn og støyanalyse
+4. Smart avfallssortering med kamera
+
