@@ -30,6 +30,26 @@ Point the camera at a waste item. The system identifies the object and displays 
 - Integrate physical actuators to automatically sort items into bins
 - Implement proper error handling and logging for production deployment
 
+### Why LiteRT?
+We chose __LiteRT__ for on-device inference on the Raspberry Pi 4 Model B because:
+
+- __Performance__:  
+LiteRT delivers  up to 1.4x better the GPU performance than TensorFlow Lite and introduces NPU acceleration support
+
+- __Cross-platform compatibility__:  
+Supports Linux, Android, iOS, Windows, and Web - ensuring our model runs reliably across different devices
+
+- __Lightweight deployment__:  
+The `.tflite` model format is optimized for edge devices with limited computational resources, making it ideal for embedded systems like Raspberry Pi.
+
+- __Unified workflow__:  
+Simplifies deployment with consistent model conversion and inference across platforms
+
+- __Future-proof__:  
+LiteRT is Google's active framework for on-device AI, replacing the TensorFlow Lite with better support and features
+
+This allows us to run real-time waste classification inference directly on the Raspberry Pi without relying on cloud services, ensuring privacy and low latency.
+
 ### Credits
 Ambaya  
 Thoresen  
