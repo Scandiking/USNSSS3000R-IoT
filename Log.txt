@@ -3,4 +3,9 @@ Choose between the four initial ideas. After some consideration we went With Was
 Also completed the PowerPoint file. Not heard from Chelli regarding Kristian and Esteban not being able to meet that day due to Kristians internhip and Esteban tickets. Ambaya not present due to car problems.
 Planning a coarse timeline and tasks, and talking about how to solve the sorting.
 
+19feb-7 mars Esteban out of country
 
+
+06.02.2026,  kl. 12:15
+Full Group, all meet. We are transferring files from OneDrive to the Raspberry Pi. Having issues With this due to USBs formatted not using full capacity, takes long time tranferring from OneDrive to usb. Wetransfer does not work, email is too small. Transfering takes long time, but it is what we use eventually Slow but sure.
+AFter the fact of transferrign, we have problems installing module tensorflow and is messing around With this for a while, trying different interpreters and configs, talking With chatgpt. 
