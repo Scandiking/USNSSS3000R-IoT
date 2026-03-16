@@ -5,7 +5,30 @@ Planning a coarse timeline and tasks, and talking about how to solve the sorting
 
 19feb-7 mars Esteban out of country
 
+---
 
 06.02.2026,  kl. 12:15
 Full Group, all meet. We are transferring files from OneDrive to the Raspberry Pi. Having issues With this due to USBs formatted not using full capacity, takes long time tranferring from OneDrive to usb. Wetransfer does not work, email is too small. Transfering takes long time, but it is what we use eventually Slow but sure.
 AFter the fact of transferrign, we have problems installing module tensorflow and is messing around With this for a while, trying different interpreters and configs, talking With chatgpt. 
+
+06.02.2026, kl. 20:18
+Discord chat about installing tflite, Ambaya Picture says google renamed packacke and this one often Works on newer python: pip install ai-edge-litert. Also dawned upon Tvenning that we did not need to transfer 60.000 image files to the raspberry, that is for training the model, which we can Train on more powerful computers. Tvenning made a draft `use_model.py` for testing for NeXT Friday.
+
+---
+
+13.02.2026
+Kristian, Esteban, Jonas present, Lucas sick
+Traceback errors en masse, troubleshooting using brains and LLMs, actually gets to use the model by holding an element before the camera, which in turns print to console how sure what bin the element goes into
+
+---
+
+15.02.2026
+Kristian connecting to Raspberry at campus through VNC. Edits code to include live preview of camera feed, throttling print statement speed, and preparements for the LEDs for the breadboard. I could not get Power for the breadboard, seems like a 9V battery is needed.
+
+---
+
+06.03.2026
+Lucas, Kristian, Jonas present, Esteban away.
+Tested LED Components, wiring With the GPIO. Thinking maybe the PIR is fried. Jonas ordered like five New ones from AliExpress. Lucas Created report draft. 
+Kristian goes to campus evening and tries breadboard, sets up four LEDS + RGB diode. Works (technically), lights emit based on what model decides what type of trash
+
